@@ -3,10 +3,6 @@ import React, { Component } from 'react';
 import Gif from './gif.jsx';
 
 class GifList extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   changeGif = (id) => {
     this.props.changeGif(id);
   }
@@ -14,7 +10,7 @@ class GifList extends Component {
   render() {
     return (
       <div className="gif-list">
-        {this.props.gifs.map(gif => <Gif id={gif.id} key={gif.id} changeGif={this.changeGif}/>)}
+        {this.props.gifs.map(gif => <Gif id={gif.id} key={gif.id} changeGif={this.changeGif} />)}
       </div>
     );
   }

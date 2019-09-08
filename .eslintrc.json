@@ -7,7 +7,10 @@
     "react/prop-types": 0,
     "arrow-body-style": 0,
     "space-before-function-paren": 0,
-    "array-bracket-spacing": "off"
+    "array-bracket-spacing": "off",
+    "jsx-a11y/alt-text": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "jsx-a11y/click-events-have-key-events": "off"
   },
   "env": {
     "browser": true
